@@ -1,0 +1,42 @@
+body {
+  height: 95vh;
+  background-color: #892eff;
+  color: #270059;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+.conteiner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.list {
+  padding-right: 30px;
+  background-color: #dfc7ff;
+  border-radius: 20px;
+}
+
+.actionButton {
+  height: 24px;
+  width: 24px;
+  border-color: #270059;
+  border-radius: 20%;
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+.hide {
+  display: none;
+}
